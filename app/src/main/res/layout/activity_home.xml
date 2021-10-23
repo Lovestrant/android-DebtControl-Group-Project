@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Welcome to Home page"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/addDebtor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Debtor"
+        android:textStyle="bold"
+        android:layout_margin="30dp"
+        />
+
+    <Button
+        android:id="@+id/editDebtors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show or edit Debtors"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/DisplaySession"
+        android:layout_width="379dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="10dp" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="LogOut"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

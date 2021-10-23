@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addDebtors"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add new Debtor:"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+
+
+    <Button
+        android:id="@+id/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/debtorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Debtor's Name"
+        android:layout_margin="20dp"
+        />
+
+    <EditText
+        android:id="@+id/List"
+        android:layout_width="367dp"
+        android:layout_height="112dp"
+        android:layout_margin="20dp"
+        android:hint="List of Items" />
+
+    <EditText
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="sum"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_margin="20dp"
+        />
+
+</LinearLayout>
